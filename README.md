@@ -1,2 +1,0 @@
-# cssR
-css-resume-project
