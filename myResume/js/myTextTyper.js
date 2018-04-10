@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in myText
 
-  var dataText = ["You've accessed the mainframe using a double-handshake attack on the firewall,<br>you need to brute-force the password..."];
-  // option 2 aboutMe text
+  var dataText = ["You've accessed a top secret resume site using a double-handshake attack on the firewall,<br>you need to brute-force the password to gain access..."];
+  
+  // option 2 aboutMe text # center text
   // var dataText = [ "My Name is James.", "I Love Learning", "Web-Development.", 'All ways be # coding'];
   
   // type one text in the typwriter
@@ -43,4 +44,3 @@ document.addEventListener('DOMContentLoaded',function(event){
   // start the text animation
   StartTextAnimation(0);
 });
-
