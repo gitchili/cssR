@@ -5,64 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>mySite</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Who am I</title>
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
-     <!-- // Intro -->
-     <header>
-            <img src="" alt="na">
-            <h1>James Phillips</h1>
-            <h2>Wannabe Developer</h2>
-            <p>Stuff and things about me and my goals...</p>
-        </header>
-
-        <main> 
-                <!-- // Work Experience -->
-                <section>
-                
-                    <!-- This list can be deleted if you don't want to use it. -->
-                    <p>Project-List:</p>
-                    <ul>
-                        <li>Created...</li>
-                        <li>Worked on</li>
-                        <li>Responsible for</li>
-                    </ul>
-                    <!-- end of Job Details block. -->
-                    
-                </section>
         
-        
-                <!-- // Education -->
-                <section>
-                    <h2>Learning</h2>
-        
-                    <!-- School details: copy this whole block to add more schools. -->
-                    <h3>Focus path</h3>
-                    <p>Certification</p>
-                    
-                    <!-- Add as many paragraphs as you need. -->
-                    <p>Summary.</p>
-                    <!-- End of school details. -->
-                </section>
-            </main>
+           
+       
+    
+    <!-- myOverlay and .js anima function for myText tpyer -->
+    <div class="overlay" id="intro">
             
-            <!-- // Footer & contact info -->
-            <footer>
-                <h2>Let's Keep in Touch!</h2>
-                
-                <!-- Social media and contact links. Add or remove any networks. -->
-                <div>
-                    <a href="#">email@example.com</a>
-                    <a href="#" target="_blank">Twitter</a>
-                    <a href="#" target="_blank">LinkedIn</a>
-                    <a href="#" target="_blank">Facebook</a>
-                </div>
-        
-                <p>by gitChili</p>
-            </footer>
-    <script src="scripts.js"></script>
+    </div>
+    <div class="info">
+            <p class="hidden">Press any button to hack<span class="blink">_</span></p>
+            <div class="password hidden"></div>
+            <div class="button start">START HACKING!</div>
+            <div class="blink granted hidden"><a href="#">ACCESS GRANTED!</a></div>
+            <div class=" button rerun hidden">RERUN</div>
+
+        </div>
+   
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/myTextTyper.js"> </script>
+    <script src="js/myCipher.js"></script>
 </body>
+
 </html>
