@@ -29,7 +29,7 @@ body {
   background-image: radial-gradient(#11581E, #041607);
   font-family: 'Inconsolata', Helvetica, sans-serif;
   font-size: 1.5rem;
-  color: rgba(128, 255, 128, 0.8);
+  color: rgba(253, 255, 253, 0.8);
   text-shadow: 0 0 1ex rgba(51, 255, 51, 1), 0 0 2px rgba(255, 255, 255, 0.8);
   margin: 0;
   align-content: center;
@@ -41,18 +41,29 @@ span {
 }
 
 a {
-  text-decoration: none; /* no underli.button {
-    background: hsl(0, 0%, 90%);
-    border-radius: 6px;
-    font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
-    padding: 15px 20px;
-  }ne */
+  text-decoration: none;
 }
 
-#intro { 
-  align-content: left;
-  padding-top: 45px;
-  padding-left: 10px;
+button {
+  margin-left: 50px;
+  background-color: rgb(8, 8, 8);
+  color: rgb(34, 166, 189);
+  margin-top: 490px;
+  text-decoration: none;
+  margin-left: 20px;
+  align-content: center;
+  position: inherit;
+  text-align: center;
+  
+}
+
+.info { 
+  align-content: center;
+  padding-top: 450px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 1.5em;
+  text-decoration: grey;
   
 }
 /* classTags */
@@ -82,3 +93,11 @@ a {
   background-repeat: no-repeat;
   animation: scan 7.5s linear 0s infinite;
 }
+
+.button {
+  padding: 10px 24px;
+  
+
+}
+
+
